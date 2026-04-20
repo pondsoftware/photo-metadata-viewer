@@ -9,6 +9,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  icons: {
+    icon: "/favicon.svg",
+  },
   title: "Photo Metadata Viewer — View & Remove EXIF Data Online",
   description:
     "View all hidden metadata in your photos: GPS location, camera model, timestamps, and more. Strip EXIF data for privacy. 100% browser-based — files never leave your device.",
