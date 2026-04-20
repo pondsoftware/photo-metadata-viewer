@@ -263,8 +263,8 @@ export default function MetadataViewer() {
           onClick={() => fileInputRef.current?.click()}
           className={`border-2 border-dashed rounded-xl p-16 text-center cursor-pointer transition ${
             isDragging
-              ? "border-blue-500 bg-blue-50"
-              : "border-gray-300 hover:border-blue-400 hover:bg-gray-50"
+              ? "border-teal-500 bg-teal-50"
+              : "border-gray-300 hover:border-teal-400 hover:bg-gray-50"
           }`}
         >
           <input
@@ -276,7 +276,7 @@ export default function MetadataViewer() {
             className="hidden"
           />
           {isLoading ? (
-            <div className="w-8 h-8 mx-auto border-2 border-blue-500 border-t-transparent rounded-full animate-spin" />
+            <div className="w-8 h-8 mx-auto border-2 border-teal-500 border-t-transparent rounded-full animate-spin" />
           ) : (
             <>
               <svg
@@ -337,7 +337,7 @@ export default function MetadataViewer() {
                 onClick={() => { setSelectedIndex(idx); setActiveTab("overview"); }}
                 className={`rounded-lg border p-2 cursor-pointer transition hover:shadow-md ${
                   idx === selectedIndex
-                    ? "border-blue-500 ring-2 ring-blue-200"
+                    ? "border-teal-500 ring-2 ring-teal-200"
                     : "border-gray-200 hover:border-gray-300"
                 }`}
               >
@@ -470,7 +470,7 @@ export default function MetadataViewer() {
                 href={`https://www.openstreetmap.org/?mlat=${selectedResult.gps.lat}&mlon=${selectedResult.gps.lng}#map=15/${selectedResult.gps.lat}/${selectedResult.gps.lng}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm text-blue-600 hover:text-blue-800 font-medium"
+                className="text-sm text-teal-600 hover:text-teal-800 font-medium"
               >
                 View on OpenStreetMap &rarr;
               </a>
@@ -502,7 +502,7 @@ export default function MetadataViewer() {
                     onClick={() => setActiveTab(key)}
                     className={`px-4 py-3 text-sm font-medium transition ${
                       activeTab === key
-                        ? "text-blue-600 border-b-2 border-blue-600"
+                        ? "text-teal-600 border-b-2 border-teal-600"
                         : "text-gray-500 hover:text-gray-700"
                     }`}
                   >

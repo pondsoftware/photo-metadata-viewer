@@ -76,7 +76,7 @@ export default function Home() {
               </div>
             </li>
             <li className="flex gap-3">
-              <span className="text-blue-500 mt-0.5 shrink-0">
+              <span className="text-teal-500 mt-0.5 shrink-0">
                 <svg
                   className="w-5 h-5"
                   fill="currentColor"
@@ -146,10 +146,10 @@ export default function Home() {
         </section>
       </div>
 
-      <div className="mt-8 bg-blue-50 border border-blue-200 rounded-lg p-6 text-center">
+      <div className="mt-8 bg-teal-50 border border-teal-200 rounded-lg p-6 text-center">
         <p className="text-gray-900 font-medium mb-1">Need to convert image formats?</p>
         <p className="text-gray-600 text-sm mb-3">Convert between PNG, JPG, WebP, and more — free and browser-based.</p>
-        <a href="https://imageconverters.net" className="inline-block bg-blue-600 text-white px-5 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors">Try our free Image Converter</a>
+        <a href="https://imageconverters.net" className="inline-block bg-teal-600 text-white px-5 py-2 rounded-lg text-sm font-medium hover:bg-teal-700 transition-colors">Try our free Image Converter</a>
       </div>
 
       <section className="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
