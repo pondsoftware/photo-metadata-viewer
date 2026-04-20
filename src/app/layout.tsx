@@ -12,6 +12,20 @@ export const metadata: Metadata = {
   title: "Photo Metadata Viewer — View & Remove EXIF Data Online",
   description:
     "View all hidden metadata in your photos: GPS location, camera model, timestamps, and more. Strip EXIF data for privacy. 100% browser-based — files never leave your device.",
+  openGraph: {
+    title: "Photo Metadata Viewer",
+    description:
+      "View all hidden metadata in your photos: GPS location, camera model, timestamps, and more. Strip EXIF data for privacy. 100% browser-based — files never leave your device.",
+    type: "website",
+    url: "https://photometadata.net",
+    siteName: "Photo Metadata Viewer",
+  },
+  twitter: {
+    card: "summary",
+    title: "Photo Metadata Viewer",
+    description:
+      "View all hidden metadata in your photos: GPS location, camera model, timestamps, and more. Strip EXIF data for privacy. 100% browser-based — files never leave your device.",
+  },
 };
 
 export default function RootLayout({
