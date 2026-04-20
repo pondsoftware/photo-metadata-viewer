@@ -145,6 +145,90 @@ export default function Home() {
           </div>
         </section>
       </div>
+
+      <div className="mt-8 bg-blue-50 border border-blue-200 rounded-lg p-6 text-center">
+        <p className="text-gray-900 font-medium mb-1">Need to convert image formats?</p>
+        <p className="text-gray-600 text-sm mb-3">Convert between PNG, JPG, WebP, and more — free and browser-based.</p>
+        <a href="https://imageconverters.net" className="inline-block bg-blue-600 text-white px-5 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors">Try our free Image Converter</a>
+      </div>
+
+      <section className="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
+        <h2 className="text-2xl font-bold text-gray-900 mb-6">Frequently Asked Questions</h2>
+        <div className="space-y-6">
+          <div>
+            <h3 className="text-lg font-semibold text-gray-900 mb-2">How do I remove GPS data from a photo?</h3>
+            <p className="text-gray-600">Upload your photo above, then click the &apos;Strip Metadata &amp; Download&apos; button. This removes all EXIF data including GPS coordinates, camera settings, and timestamps. The cleaned photo downloads instantly.</p>
+          </div>
+          <div>
+            <h3 className="text-lg font-semibold text-gray-900 mb-2">Can someone track my location from a photo?</h3>
+            <p className="text-gray-600">Yes, if your phone has location services enabled for the camera, photos contain GPS coordinates accurate to within a few meters. Always strip metadata before sharing sensitive photos online.</p>
+          </div>
+          <div>
+            <h3 className="text-lg font-semibold text-gray-900 mb-2">Does Instagram strip EXIF data?</h3>
+            <p className="text-gray-600">Yes, Instagram removes most EXIF metadata when you upload, including GPS location. However, Facebook, email attachments, and many messaging apps may preserve EXIF data.</p>
+          </div>
+          <div>
+            <h3 className="text-lg font-semibold text-gray-900 mb-2">What is EXIF data?</h3>
+            <p className="text-gray-600">EXIF (Exchangeable Image File Format) is metadata embedded in photos by cameras and phones. It includes camera model, settings (aperture, shutter speed, ISO), date/time, and often GPS location.</p>
+          </div>
+          <div>
+            <h3 className="text-lg font-semibold text-gray-900 mb-2">How do I stop my phone from saving location in photos?</h3>
+            <p className="text-gray-600">On iPhone: Settings &gt; Privacy &gt; Location Services &gt; Camera &gt; Never. On Android: Open Camera app &gt; Settings &gt; toggle off Location/GPS tags.</p>
+          </div>
+        </div>
+      </section>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "How do I remove GPS data from a photo?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Upload your photo above, then click the 'Strip Metadata & Download' button. This removes all EXIF data including GPS coordinates, camera settings, and timestamps. The cleaned photo downloads instantly."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can someone track my location from a photo?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, if your phone has location services enabled for the camera, photos contain GPS coordinates accurate to within a few meters. Always strip metadata before sharing sensitive photos online."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does Instagram strip EXIF data?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, Instagram removes most EXIF metadata when you upload, including GPS location. However, Facebook, email attachments, and many messaging apps may preserve EXIF data."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is EXIF data?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "EXIF (Exchangeable Image File Format) is metadata embedded in photos by cameras and phones. It includes camera model, settings (aperture, shutter speed, ISO), date/time, and often GPS location."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How do I stop my phone from saving location in photos?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "On iPhone: Settings > Privacy > Location Services > Camera > Never. On Android: Open Camera app > Settings > toggle off Location/GPS tags."
+                }
+              }
+            ]
+          })
+        }}
+      />
     </div>
   );
 }
