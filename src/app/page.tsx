@@ -198,6 +198,15 @@ export default function Home() {
               </p>
             </a>
             <a
+              href="/cameras"
+              className="block bg-white border border-gray-200 rounded-lg p-5 hover:border-teal-400 hover:shadow-sm transition"
+            >
+              <h3 className="font-semibold text-gray-900 mb-1">Camera Brand EXIF Guides</h3>
+              <p className="text-sm text-gray-600">
+                How Canon, Nikon, Sony, Apple, and other brands store metadata differently.
+              </p>
+            </a>
+            <a
               href="https://imageconverters.net"
               className="block bg-white border border-gray-200 rounded-lg p-5 hover:border-teal-400 hover:shadow-sm transition"
             >
