@@ -146,10 +146,68 @@ export default function Home() {
         </section>
       </div>
 
-      <div className="mt-8 bg-teal-50 border border-teal-200 rounded-lg p-6 text-center">
-        <p className="text-gray-900 font-medium mb-1">Need to convert image formats?</p>
-        <p className="text-gray-600 text-sm mb-3">Convert between PNG, JPG, WebP, and more — free and browser-based.</p>
-        <a href="https://imageconverters.net" className="inline-block bg-teal-600 text-white px-5 py-2 rounded-lg text-sm font-medium hover:bg-teal-700 transition-colors">Try our free Image Converter</a>
+      <div className="mt-12 space-y-8">
+        <section>
+          <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+            Learn More About Photo Metadata
+          </h2>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <a
+              href="/what-is-exif"
+              className="block bg-white border border-gray-200 rounded-lg p-5 hover:border-teal-400 hover:shadow-sm transition"
+            >
+              <h3 className="font-semibold text-gray-900 mb-1">What Is EXIF Data?</h3>
+              <p className="text-sm text-gray-600">
+                Complete guide to photo metadata — what it is, how it gets embedded, and which formats support it.
+              </p>
+            </a>
+            <a
+              href="/remove-metadata"
+              className="block bg-white border border-gray-200 rounded-lg p-5 hover:border-teal-400 hover:shadow-sm transition"
+            >
+              <h3 className="font-semibold text-gray-900 mb-1">Remove Photo Metadata</h3>
+              <p className="text-sm text-gray-600">
+                How to strip EXIF data for privacy on iPhone, Android, Windows, and Mac.
+              </p>
+            </a>
+            <a
+              href="/privacy-guide"
+              className="block bg-white border border-gray-200 rounded-lg p-5 hover:border-teal-400 hover:shadow-sm transition"
+            >
+              <h3 className="font-semibold text-gray-900 mb-1">Photo Privacy Guide</h3>
+              <p className="text-sm text-gray-600">
+                What personal information photos reveal and a checklist for sharing safely online.
+              </p>
+            </a>
+            <a
+              href="/camera-settings"
+              className="block bg-white border border-gray-200 rounded-lg p-5 hover:border-teal-400 hover:shadow-sm transition"
+            >
+              <h3 className="font-semibold text-gray-900 mb-1">Camera Settings in EXIF</h3>
+              <p className="text-sm text-gray-600">
+                Understand aperture, shutter speed, ISO, and other settings captured in your photos.
+              </p>
+            </a>
+            <a
+              href="/gps-data"
+              className="block bg-white border border-gray-200 rounded-lg p-5 hover:border-teal-400 hover:shadow-sm transition"
+            >
+              <h3 className="font-semibold text-gray-900 mb-1">GPS Data in Photos</h3>
+              <p className="text-sm text-gray-600">
+                How location data gets embedded, privacy risks, and how to disable geotagging.
+              </p>
+            </a>
+            <a
+              href="https://imageconverters.net"
+              className="block bg-white border border-gray-200 rounded-lg p-5 hover:border-teal-400 hover:shadow-sm transition"
+            >
+              <h3 className="font-semibold text-gray-900 mb-1">Image Format Converter</h3>
+              <p className="text-sm text-gray-600">
+                Convert between PNG, JPG, WebP, HEIC, and more — free and browser-based.
+              </p>
+            </a>
+          </div>
+        </section>
       </div>
 
       <section className="max-w-4xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
